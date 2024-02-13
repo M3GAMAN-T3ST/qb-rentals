@@ -1,6 +1,6 @@
 Config = {}
 
-Config.FuelExport = 'lj-fuel'
+Config.FuelExport = 'LegacyFuel'
 
 Config.Locations = {
     vehicle = {
