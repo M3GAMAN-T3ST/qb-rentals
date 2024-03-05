@@ -25,7 +25,7 @@ CreateThread(function(data)
                 type = "client",
                 event = "qb-rental:client:LicenseCheck",
                 icon = "fas fa-car",
-                label = "Rent Aircraft",
+                label = "Rent Airplane",
                 LicenseType = "pilot",
                 MenuType = "aircraft",
             },
@@ -42,8 +42,40 @@ CreateThread(function(data)
                 type = "client",
                 event = "qb-rental:client:openMenu",
                 icon = "fas fa-car",
-                label = "Rent Aircraft",
+                label = "Rent Boat",
                 MenuType = "boat"
+            },
+        },
+        distance = 3.0
+        })
+
+    exports['qb-target']:AddCircleZone("HeliPed", vector3(-700.05, -1401.57, 4.5), 0.4, { 
+        name = "heliped", 
+        debugPoly = false,
+        }, {
+        options = {
+            {
+                type = "client",
+                event = "qb-rental:client:openMenu",
+                icon = "fas fa-car",
+                label = "Rent Helicopter",
+                MenuType = "heli"
+            },
+        },
+        distance = 3.0
+        })
+
+    exports['qb-target']:AddCircleZone("BikePed", vector3(-1670.06, -997.84, 6.39), 0.4, { 
+        name = "bikeped", 
+        debugPoly = false,
+        }, {
+        options = {
+            {
+                type = "client",
+                event = "qb-rental:client:openMenu",
+                icon = "fas fa-car",
+                label = "Rent Bike",
+                MenuType = "bike"
             },
         },
         distance = 3.0
