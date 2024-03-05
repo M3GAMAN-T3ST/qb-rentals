@@ -1,8 +1,10 @@
 local Translations = {
     info = {
-        ["air_veh"] = "Aircraft Rentals",
+        ["air_veh"] = "Airplane Rentals",
         ["land_veh"] = "Vehicle Rentals",
         ["sea_veh"] = "Boat Rentals",
+        ["heli_veh"] = "Helicopter Rentals",
+        ["bike_veh"] = "Bike Rentals",
     },
     error = {
         ["not_enough_space"] = "%{vehicle} is in the way!",
